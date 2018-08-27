@@ -16,7 +16,7 @@ public class UploadDemo {
 
     public static void main(String[] args) throws IOException, URISyntaxException, InterruptedException {
         // 获得FileSystem对象，指定使用root用户上传
-        FileSystem fileSystem = FileSystem.get(new URI("hdfs://192.168.0.37:9000"), new Configuration(), "root");
+        FileSystem fileSystem = FileSystem.get(new URI("hdfs://192.168.70.3:9000"), new Configuration(), "root");
         // 创建输入流，参数指定文件输出地址
         InputStream in = new FileInputStream("/Users/yiche/github/hadoop/hdfs/output/readME.txt");
         // 调用create方法指定文件上传，参数HDFS上传路径

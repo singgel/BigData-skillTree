@@ -16,7 +16,7 @@ public class OpenDemo {
 
     public static void main(String[] args) throws IOException, URISyntaxException {
         // 获得FileSystem对象
-        FileSystem fileSystem = FileSystem.get(new URI("hdfs://192.168.0.37:9000"), new Configuration());
+        FileSystem fileSystem = FileSystem.get(new URI("hdfs://192.168.70.3:9000"), new Configuration());
         // 调用open方法进行下载，参数HDFS路径
         InputStream in = fileSystem.open(new Path("/hadoop/readME.txt"));
         // 创建输出流，参数指定文件输出地址
