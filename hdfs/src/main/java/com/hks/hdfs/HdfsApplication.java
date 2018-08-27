@@ -9,5 +9,5 @@ public class HdfsApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(HdfsApplication.class, args);
 	}
-	
+
 }
