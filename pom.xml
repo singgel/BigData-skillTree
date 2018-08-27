@@ -6,13 +6,14 @@
 	<groupId>com.hks</groupId>
 	<artifactId>hadoop</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>pom</packaging>
 
 	<name>hadoop</name>
 	<description>hadoop project for Spring Boot</description>
 
 	<modules>
 		<module>hdfs</module>
+		<module>mapreduce</module>
 	</modules>
 
 	<parent>
@@ -49,6 +50,5 @@
 			</plugin>
 		</plugins>
 	</build>
-
 
 </project>
