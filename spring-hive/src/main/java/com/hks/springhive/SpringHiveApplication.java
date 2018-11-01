@@ -1,13 +1,13 @@
-package com.hks.hdfs;
+package com.hks.springhive;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HdfsApplication {
+public class SpringHiveApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HdfsApplication.class, args);
-	}
+		SpringApplication.run(SpringHiveApplication.class, args);
 
+	}
 }
