@@ -1,0 +1,8 @@
+kafka:
+  bootstrap:
+    servers: 127.0.0.1:9092
+  zookeeper:
+    connect: 127.0.0.1:2181
+  group:
+    id: test
+
