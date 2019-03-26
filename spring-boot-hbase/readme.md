@@ -1,0 +1,2 @@
+下面这个地址上的starter很是方便，貌似是新浪的一个小伙伴写的
+[Spring Boot 2.x ：通过 spring-boot-starter-hbase 集成 HBase](http://ifeve.com/spring-boot-2-x-%ef%bc%9a%e9%80%9a%e8%bf%87-spring-boot-starter-hbase-%e9%9b%86%e6%88%90-hbase/)
